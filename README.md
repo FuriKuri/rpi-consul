@@ -48,3 +48,7 @@ The following configuration will be loaded per default:
 If you want to use your own flag, just override them:
 
 	$ docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 furikuri/rpi-consul -server -bootstrap -bind 172.17.0.2
+
+## License
+
+MIT
