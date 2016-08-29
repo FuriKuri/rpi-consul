@@ -26,3 +26,5 @@ ENV DNS_RESOLVES consul
 ENV DNS_PORT 8600
 
 ENTRYPOINT ["/usr/local/bin/consul", "agent", "-config-dir=/config"]
+
+CMD ["agent", "-config-dir=/config"]
